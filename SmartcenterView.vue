@@ -9,6 +9,7 @@
       <i class="iconfont icon-wendu" style="font-size: 24px;"></i><div>实时温度: {{ currentTemperature }}</div>
       </div>
     </div>
+    
     <div class="column">
       <div class="video">
           <h2 style="margin-bottom: 10px; margin-top: -10px;">海洋牧场环境感知得分</h2> 

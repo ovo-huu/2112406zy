@@ -9,6 +9,7 @@
           <div>{{ dateFormat(nowTime) }}</div>
           <i class="iconfont icon-wendu" style="font-size: 24px;"></i>
           <div>实时温度: {{ currentTemperature }}</div>
+
         </div>
       </div>
       <div class="column">
@@ -26,6 +27,7 @@
           <div class="cylinder" :style="{ height: gpuUsage + 'px' }"></div>
           <p>进程总量：{{ processCount }}</p>
           <p>磁盘使用率：{{ diskUsage }}%</p>
+
         </div>
       </div>
       <div class="column">
@@ -41,6 +43,7 @@
           <p>平均长度2: {{ averageStats.length2.toFixed(2) }} cm</p>
           <p>平均长度3: {{ averageStats.length3.toFixed(2) }} cm</p>
           <p>平均高度: {{ averageStats.height.toFixed(2) }} cm</p>
+          
           <p>平均宽度: {{ averageStats.width.toFixed(2) }} cm</p>
         </div>
         <!-- 数据中心分布 -->

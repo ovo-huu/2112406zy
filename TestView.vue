@@ -10,6 +10,7 @@
         <button class="nav-btn" @click="changeData('rain')">降水</button>
       </div>
     </div>
+    
     <div class="weather-chart">
       <canvas id="weatherChart"></canvas>
     </div>

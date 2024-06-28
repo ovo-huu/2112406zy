@@ -17,6 +17,7 @@
           <!-- 在这里嵌入监控视频 -->
 
 
+          
           <video src="/sea.mp4" controls></video>
         </div>
         <div class="controls">
