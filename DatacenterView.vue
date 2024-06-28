@@ -43,7 +43,7 @@
           <p>平均长度2: {{ averageStats.length2.toFixed(2) }} cm</p>
           <p>平均长度3: {{ averageStats.length3.toFixed(2) }} cm</p>
           <p>平均高度: {{ averageStats.height.toFixed(2) }} cm</p>
-          
+          <!-- C4修改 -->
           <p>平均宽度: {{ averageStats.width.toFixed(2) }} cm</p>
         </div>
         <!-- 数据中心分布 -->
