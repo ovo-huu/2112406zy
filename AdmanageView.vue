@@ -2,9 +2,6 @@
   <div class="content1">
     <router-view></router-view>
     <div class="admin-panel">
-
-      
-      
       <h1>管理员管理界面</h1>
       <div class="container">
         <!-- 左侧用户列表 -->
@@ -51,6 +48,7 @@
     </div>
   </div>
 </template>
+
 
 <script>
 export default {
