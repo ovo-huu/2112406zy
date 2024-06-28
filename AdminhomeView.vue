@@ -10,9 +10,6 @@
           <button @click="logout">退出登录</button>
         </div>
 
-        
-        
-
       </div>
       <router-link to="/adminhome/main-info" class="button">主要信息</router-link>
       <router-link to="/adminhome/under-sea" class="button">水下系统</router-link>
