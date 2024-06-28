@@ -27,6 +27,7 @@
       <router-view v-if="showContent('smart-center')" class="smart-center"></router-view>
       <router-view v-if="showContent('admin-management')" class="admin-management"></router-view>
       <router-view v-if="showContent('data-base')" class="data-base"></router-view>
+
     </div>
   </div>
 </template>
